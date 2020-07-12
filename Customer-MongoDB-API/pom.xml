@@ -11,7 +11,7 @@
 	<groupId>com.customer</groupId>
 	<artifactId>Customer-MongoDB-API</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Customer-MongoDB-API</name>
+	<name>Customer_Data_Service</name>
 	<description>Getting customer details</description>
 
 	<properties>
@@ -48,6 +48,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>customer-data-service</finalName>
 	</build>
-
+	
+		
 </project>
